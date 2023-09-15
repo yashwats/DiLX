@@ -1,0 +1,332 @@
+#intro{
+  width: 100%;
+  height: 100vh;
+  background: url(//www.dilx.co/wp-content/themes/dilx/img/intro-bg.jpg) center top no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.vhcenter{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.video-bg{
+  background: #073f64 url("https://www.dilx.co/wp-content/themes/dilx/img/video-bg.png") center center repeat ;
+  background-image: url("https://www.dilx.co/wp-content/themes/dilx/img/video-bg.png");
+  background-position-x: center;
+  background-position-y: center;
+  background-size: initial;
+  background-repeat: repeat;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background-color: #16192D;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  opacity: 0.8;
+}
+
+#myVideo{
+  position: relative;
+  left: 0;
+  top: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: 0;
+}
+
+.hometxt{
+  position: absolute;
+  z-index: 1;
+  text-align: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.logo-img img{
+  margin-top: 120px;
+  z-index: 1;
+}
+
+#videoContent{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  position: absolute;
+  top: 90%;
+  width: 100%;
+  text-align: center;
+}
+
+.l1w1{
+  font-weight: bold;
+}
+
+.l1w2{
+  color: #20bdbe;
+}
+
+.l2{
+  font-size: 25px;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 22px;
+  font-family: Montserrat;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: #20bdbe;
+  color: white;
+  border: none;
+  font-weight: bold;
+  border-radius: 25px;
+  width: auto;
+}
+
+#btn:hover {
+  background-color: yellow;
+  color: #073f64;
+}
+
+#btn1:hover {
+  background-color: red;
+  color: #ddd;
+}
+
+#btn2:hover {
+  background-color: rgb(12, 217, 12);
+  color: black;
+}
+
+#bt:hover {
+  background-color: red;
+  color: #ddd;
+}
+
+
+@media (min-aspect-ratio: 16/9) {
+  #video{
+    width: 100vw;
+    height:auto;
+  }
+}
+
+@media (max-aspect-ratio: 16/9) {
+  #video {
+    height: 100vh;
+    width:auto;
+    margin-left: 50vw;
+    transform: translate(-50%);
+  }
+}
+
+/*Styles for main section start here*/
+
+#flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: none;
+}
+ 
+.flex-container > div {
+  text-align: center;
+  font-size: 28px;
+  font-family: Montserrat;
+  padding-left: 0;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  line-height: 40px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 700px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content p {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  margin: 0;
+}
+
+.dropdown-content p:hover {background-color: #ddd; cursor: pointer;}
+
+.dropdown:hover .dropdown-content {display: block; }
+
+.dropdown .button{
+  width: 700px;
+  padding: 20px 35px;
+  font-size: 25px;
+}
+
+#introduction{
+  text-align: justify;
+  font-size: 25px;
+  font-family: Montserrat;
+  padding-top:50px;
+  padding-bottom:50px;
+  padding-left: 25px;
+  padding-right: 25px;
+  line-height: 40px;
+  margin: auto;
+  background:white;
+}
+
+#imp{
+  font-weight: bold;
+}
+
+.env{
+  max-width: 60%;
+  text-align: justify;
+  padding-left: 25px;
+  font-size: 25px;}
+
+.soc{
+  margin-left: 600px;
+  text-align: justify;
+  padding-right: 25px;
+  font-size: 25px;
+}
+
+.gov{
+  max-width: 60%;
+  text-align: justify;
+  padding-left: 25px;
+  font-size: 25px;
+}
+
+#envimg{
+  max-width:34%;
+  box-sizing:border-box;
+  position:absolute;
+  right:20px;
+  top:1050px;
+  height:auto;}
+
+#socimg{
+  max-width:34%;
+  box-sizing: border-box;
+  position: absolute;
+  left: 25px;
+  top: 1580px;
+  height: auto;
+}
+ 
+#govimg{
+  max-width:33%;
+  box-sizing:border-box;
+  position:absolute;
+  right:25px;
+  top:2120px;
+  height:auto;}
+
+#govtitle{
+  left: 25px;
+  position:absolute;
+}
+
+#envtitle{
+  left:25px;
+  position:absolute;}
+
+#soctitle{
+  right:25px;
+  position:absolute;}
+
+body{
+  background:#16192D;
+  padding:0;
+  margin:0;
+}
+
+#reports{
+  background:white;
+  text-align: center;
+  font-size: 28px;
+  font-family: Montserrat;
+  padding-left: 0;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-top: 20px;
+  line-height: 40px;
+  margin-top: 10px;
+}
+
+#envcont{
+  color:white;
+  padding-top: 25px;
+}
+
+#soccont{
+  background:white;
+  color:black;
+  padding-top:25px;
+  margin:0;
+  width:100%;}
+
+#govcont{
+  color:white;
+  padding-top: 25px;
+}
+
+
+
+#xporeport{display:none;}
+#maerskreport{display:none;}
+#knreport{display:none;}
+#calc{
+  text-align:center;
+  background-color: #f1f1f1;}
+
+#fore{
+  text-align: justify;
+  font-family: Montserrat;
+  padding-left: 25px;
+  font-size: 25px;
+  color:white;
+}
+
+iframe {
+  overflow: hidden;
+}
+
+#charts{display:none;
+margin:auto;
+width:1400px;}
+
+.buttoncont{height:200px;}
